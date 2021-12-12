@@ -5,7 +5,7 @@ import tensorflow as tf
 from keras.models import Sequential
 from keras.layers import Dense
 
-data = pd.read_csv(r'/dataset/train.csv')
+data = pd.read_csv(r'enter your train.csv file path')
 x = data.iloc[:,7:10].values
 y = data.iloc[:,0:7].values
 
